@@ -1,0 +1,11 @@
+Motion Homming 순서
+1. Neg 방향으로 모션 이동
+2. Home 센서 감지 -> 이벤트 없음 -> Neg 센서방향으로 계속 이동
+3. Neg 센서 감지 -> 모션 Stop
+4. Pos 방향으로 모션 이동 -> Home센서 감지
+5. Home 센서 감지-> 모션 Stop -> Pos 방향으로 조금 이동 후 Zero Pos Set.
+
+Stop Option
+1. Stop - Stop후 다음 명령 가능
+2. E-Stop - 클리어(드라이버 클리어) 후 다음명령 가능 (Amp는 On상태)
+3. ABORT - 클리어(드라이버 클리어) -> Amp On -> 다음명령 가능
