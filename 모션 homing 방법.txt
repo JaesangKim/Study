@@ -1,0 +1,9 @@
+1. - 방향으로 이동
+2. Neg 센서 감지 -> 정지
+3. +10pulse 이동 (Home 위치로 가정)
+4. Zero Set -> pos = 0.0
+5. - 방향으로 다시 이동 -> Neg 센서 감지 -> 정지 -> pos = Neg Limit Pos ( Pos. Min)
+6. +5pulse 이동 (SW Neg Limit 위치로 가정) -> pos = SW Neg Limit Pos
+7. +방향으로 이동 -> Pos 센서 감지 -> 정지 -> pos = Pos Limit Pos (Pos.Max)
+8. -5pulse 이동 (SW Pos Limit 위치로 가정) -> pos = SW Pos Limit Pos
+
